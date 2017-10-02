@@ -17,4 +17,4 @@ def decode(cyphertext, key): return [alphabet[int(filter(bit, key), 2)] for bit 
 
 # cyphertext = ['10101','00100','10101','01011','11001','00011','01011','10101','00100','11001','11010']
 # decode(cyphertext, '10001')
-# ['E', 'V', 'E', '', 'I', 'S', '', 'E', 'V', 'I', 'L']
+# ['E', 'V', 'E', ' ', 'I', 'S', ' ', 'E', 'V', 'I', 'L']
