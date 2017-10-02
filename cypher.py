@@ -1,7 +1,7 @@
 # CTM Problem 1.5.1
 from GF2 import one
 
-alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','']
+alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ']
 
 def oneify(bit): return one if int(bit) == 1 else 0
 
