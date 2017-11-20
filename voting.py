@@ -1,6 +1,4 @@
 import sys
-import vecutil
-from vec import Vec
 
 def list_dot(u, v): return sum([a*b for (a,b) in zip(u,v)])
 def addn(v, w): return [x+y for (x,y) in zip(v,w)]
